@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* header begin  */
+
+
+.container {
+    /* position:absolute; */
+    /* position: relative; */
+    top: 1%;
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+    padding: 0 10% 0 10%;
+    background-image: url(/images/bg.jpeg);
+    height: auto;
+    /* z-index: 2;     */
+    border-bottom: 2px solid orange;
+ }
+
+ #header-background::before {
+     content: "";
+     background-color: black;
+     opacity: 0.2;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+ }
+
+ .center {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.icon {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.navbar-item {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.navbar-item:hover {
+    border-bottom: 3px solid orange;
+    padding: 0.5rem;
+}
+/* header end   */
+
+.project-body {
+    display: flex;
+    justify-content: center; /* up and down */
+    padding-top: 3rem;
+
+    
+}
+
+.pr {
+    background-color: #EAE7E7 ;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.project-container {
+    display: grid;
+   gap: 1rem
+   ;
+  grid-template-columns: auto auto auto;
+   width: 70%;
+   align-items: center; /* left and right */
+  justify-content: center; /* up and down */
+}
+
+
+.pr a img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pr a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.titles {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.titles::after{
+    position: absolute;
+    content: '';
+    width: 9rem;
+    height: 0.5rem;
+    /* left: 50%; */
+    /* text-align: center; */
+    bottom: 0%;
+    /* top: 2rem; */
+    /* width: 2rem; */
+    background-color: orange;
+    left: 50%;
+   transform: translateX(-50%);
+}
