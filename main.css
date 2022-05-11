@@ -201,16 +201,6 @@ margin-bottom: 2%;    animation:
       font-size: 2rem;
   }
 
-  .social_network div i {
-      border-radius: 50%;
-      border: 2px solid  black;
-      padding: 2rem;
-
-  }
-
-  .social_network div i:hover {
-   background-color:  orange;
-}
 
 
   .social_network div  {
@@ -370,3 +360,15 @@ footer {
     padding: 2%;
 }
 
+
+
+.social_network div i {
+    border-radius: 50%;
+    border: 2px solid  black;
+    padding: 2rem;
+
+}
+
+.social_network div i:hover {
+ background-color:  orange;
+}
