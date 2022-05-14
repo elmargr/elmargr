@@ -77,6 +77,84 @@ h1 {
   text-align: center;
 }
 /* hgxgfvbjklk;lkjhv */
-.sari {
-  background-color: yellow;
+/* .esas {
+  display: flex;
+  width: 80%;
+  height: auto;
+  background-color: aquamarine;
+} */
+
+/* form
+ */
+
+/* 
+ */
+
+section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  width: 80%;
+  /* background-color: aquamarine; */
+  flex-direction: column;
+}
+
+form div {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  /* background-color: blueviolet; */
+  justify-content: center;
+
+  /* padding: 1rem; */
+}
+
+form div input {
+  margin: 1rem;
+  width: 34rem;
+  height: 2rem;
+  display: flex;
+}
+
+form div textarea {
+  width: 69rem;
+  padding: 1rem;
+}
+
+.submit-but {
+  width: 71rem;
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  color: white;
+  padding: 2rem;
+  height: 2rem;
+}
+
+/* header */
+
+header {
+  height: 9rem;
+  width: 100%;
+  background-color: orange;
+  display: flex;
+}
+header div {
+  width: 33%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+header div i {
+  /* display: inline; */
+  font-size: 2rem;
 }
