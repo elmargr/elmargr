@@ -158,3 +158,18 @@ header div i {
   /* display: inline; */
   font-size: 2rem;
 }
+
+.working-process-item::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.working-process-item {
+  position: relative;
+  background-color: red;
+}
